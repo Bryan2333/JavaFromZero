@@ -1,0 +1,6 @@
+Hello, C
+Hello, C++
+Hello, D
+Hello, Java
+Hello, Kotlin
+Hello, Python

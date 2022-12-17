@@ -1,0 +1,15 @@
+小组成员 梁锐錩 林明德 李俊儒 李沁阳
+小组分工 梁锐錩:  studentsystem/StudentSystem.java
+                models/Student.java
+                factory/ConnectionFactory.java
+                dao/Dao.java
+                dao/stuDao.resetIncrement
+
+        林明德:  dao/stuDao.getStudentByName
+                dao/stuDao.getStudentByStu_id
+
+        李俊儒: dao/stuDao.searchStudent
+               dao/stuDao.getAllStudent
+
+        李沁阳: dao/stuDao.addStudent
+               dao/stuDao.delStudentByStu_id

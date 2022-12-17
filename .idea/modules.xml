@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter10-Exercise/Chapter10-Exercise.iml" filepath="$PROJECT_DIR$/Chapter10-Exercise/Chapter10-Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection/Collection.iml" filepath="$PROJECT_DIR$/Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Comment/Comment.iml" filepath="$PROJECT_DIR$/Comment/Comment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonClass/CommonClass.iml" filepath="$PROJECT_DIR$/CommonClass/CommonClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Debug/Debug.iml" filepath="$PROJECT_DIR$/Debug/Debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enumeration/Enumeration.iml" filepath="$PROJECT_DIR$/Enumeration/Enumeration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EscapeSequence/EscapeSequence.iml" filepath="$PROJECT_DIR$/EscapeSequence/EscapeSequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstProgram/FirstProgram.iml" filepath="$PROJECT_DIR$/FirstProgram/FirstProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlowControl/FlowControl.iml" filepath="$PROJECT_DIR$/FlowControl/FlowControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inherited/Inherited.iml" filepath="$PROJECT_DIR$/Inherited/Inherited.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaFromZero.iml" filepath="$PROJECT_DIR$/.idea/JavaFromZero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodOverride/MethodOverride.iml" filepath="$PROJECT_DIR$/MethodOverride/MethodOverride.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP-High/OOP-High.iml" filepath="$PROJECT_DIR$/OOP-High/OOP-High.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP-MediumExercise/OOP-MediumExercise.iml" filepath="$PROJECT_DIR$/OOP-MediumExercise/OOP-MediumExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operator/Operator.iml" filepath="$PROJECT_DIR$/Operator/Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PackageDemo/PackageDemo.iml" filepath="$PROJECT_DIR$/PackageDemo/PackageDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Poly/Poly.iml" filepath="$PROJECT_DIR$/Poly/Poly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RentHouseSys/RentHouseSys.iml" filepath="$PROJECT_DIR$/RentHouseSys/RentHouseSys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmallChangeSys/SmallChangeSys.iml" filepath="$PROJECT_DIR$/SmallChangeSys/SmallChangeSys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variable/Variable.iml" filepath="$PROJECT_DIR$/Variable/Variable.iml" />
+    </modules>
+  </component>
+</project>

@@ -18,7 +18,7 @@ public class Jdbc01 {
         // 127.0.0.1 数据库主机的ip地址
         // 3306 端口号
         // jdbclearning 要连接到的数据库名称
-        String url = "jdbc:mysql://127.0.0.1:3306/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
 
         // 将 用户名 和 密码 放到一个 Properties 对象
         Properties info = new Properties();
@@ -29,9 +29,9 @@ public class Jdbc01 {
         Connection connection = driver.connect(url, info);
 
         // 3. 执行 SQL 语句
-//        String sql = "insert into actor values(null, '张三', '男', '2077-12-12', '111')";
+        String sql = "insert into actor values(null, '张三', '男', '2077-12-12', '111')";
 //        String sql = "update actor set name='周星驰' where id = 1";
-        String sql = "delete from actor where id = 1";
+        //String sql = "delete from actor where id = 1";
 
         // 用于执行静态 SQL 语句并返回其生产的结果的对象
         Statement statement = connection.createStatement();

@@ -21,7 +21,7 @@ public class JdbcConn {
     public void method01() throws SQLException {
         Driver driver = new Driver(); // 准备 driver
 
-        String url = "jdbc:mysql://127.0.0.1:3306/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
         Properties info = new Properties();
         info.setProperty("user", "root");
         info.setProperty("password", "www.google.com");
@@ -40,7 +40,7 @@ public class JdbcConn {
         Class<?> driverClass = Class.forName("com.mysql.cj.jdbc.Driver");
         Driver driver = (Driver) driverClass.getConstructor().newInstance();
 
-        String url = "jdbc:mysql://127.0.0.1:3306/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
         Properties info = new Properties();
         info.setProperty("user", "root");
         info.setProperty("password", "www.google.com");
@@ -56,7 +56,7 @@ public class JdbcConn {
         Class<?> driverClass = Class.forName("com.mysql.cj.jdbc.Driver");
         Driver driver = (Driver) driverClass.getConstructor().newInstance();
 
-        String url = "jdbc:mysql://127.0.0.1:3306/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
         String user = "root";
         String password = "www.google.com";
 
@@ -73,7 +73,7 @@ public class JdbcConn {
         // Driver 有静态代码块自动注册驱动
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        String url = "jdbc:mysql://127.0.0.1:3306/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
         String user = "root";
         String password = "www.google.com";
 
@@ -86,7 +86,7 @@ public class JdbcConn {
 
         // Java 从 jdk1.5以后使用了 JDBC 4，不需要再显示调用 Class.forName 注册驱动
 
-        String url = "jdbc:mysql://127.0.0.1:3306/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
         String user = "root";
         String password = "www.google.com";
 

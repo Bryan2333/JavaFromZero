@@ -205,21 +205,6 @@ public class StudentSystem {
         }
     }
 
-    public static String getMariaDBAddress() {
-        System.out.print("请输入MariaDB数据库地址: ");
-        return input.next();
-    }
-
-    public static String getMariadbUser() {
-        System.out.print("请输入MariaDB账号: ");
-        return input.next();
-    }
-
-    public static String getMariadbPass() {
-        System.out.print("请输入对应的密码: ");
-        return input.next();
-    }
-
 
     public static void main(String[] args) {
         new StudentSystem();

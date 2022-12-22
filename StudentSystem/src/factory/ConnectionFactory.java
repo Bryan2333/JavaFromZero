@@ -8,13 +8,9 @@ import studentsystem.StudentSystem;
 
 public class ConnectionFactory {
 
-    String connectionUrl = "jdbc:mariadb://"+ StudentSystem.getMariaDBAddress() + ":3306/java_b2";
-    String dbUser = StudentSystem.getMariadbUser();
-    String dbPwd = StudentSystem.getMariadbPass();
-
-//    String connectionUrl = "jdbc:mariadb://192.168.56.15:3306/java_b2";
-//    String dbUser = "root";
-//    String dbPwd = "www.google.com";
+    String connectionUrl = "jdbc:mariadb://127.0.0.1:23334/java_b2";
+    String dbUser = "root";
+    String dbPwd = "www.google.com";
     private static ConnectionFactory connectionFactory = null;
 
 

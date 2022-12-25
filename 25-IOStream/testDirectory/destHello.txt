@@ -1,0 +1,4 @@
+Hello, World!
+Hello, Java!
+Hello, C++
+你好，世界

@@ -21,10 +21,10 @@ public class JdbcConn {
     public void method01() throws SQLException {
         Driver driver = new Driver(); // 准备 driver
 
-        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
         Properties info = new Properties();
-        info.setProperty("user", "root");
-        info.setProperty("password", "www.google.com");
+        info.setProperty("user", "bryan");
+        info.setProperty("password", "www.bilibili.com");
 
         // Connect 可以理解为网络连接
         Connection connection = driver.connect(url, info);
@@ -40,10 +40,10 @@ public class JdbcConn {
         Class<?> driverClass = Class.forName("com.mysql.cj.jdbc.Driver");
         Driver driver = (Driver) driverClass.getConstructor().newInstance();
 
-        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
+        String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
         Properties info = new Properties();
-        info.setProperty("user", "root");
-        info.setProperty("password", "www.google.com");
+        info.setProperty("user", "bryan");
+        info.setProperty("password", "www.bilibili.com");
 
         // Connect 可以理解为网络连接
         Connection connection = driver.connect(url, info);
@@ -56,9 +56,9 @@ public class JdbcConn {
         Class<?> driverClass = Class.forName("com.mysql.cj.jdbc.Driver");
         Driver driver = (Driver) driverClass.getConstructor().newInstance();
 
-        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
-        String user = "root";
-        String password = "www.google.com";
+        String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
+        String user = "bryan";
+        String password = "www.bilibili.com";
 
         DriverManager.registerDriver(driver); // 注册 Driver 驱动
 
@@ -73,9 +73,9 @@ public class JdbcConn {
         // Driver 有静态代码块自动注册驱动
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
-        String user = "root";
-        String password = "www.google.com";
+        String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
+        String user = "bryan";
+        String password = "www.bilibili.com";
 
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("第四种方法 = " + connection);
@@ -86,9 +86,9 @@ public class JdbcConn {
 
         // Java 从 jdk1.5以后使用了 JDBC 4，不需要再显示调用 Class.forName 注册驱动
 
-        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
-        String user = "root";
-        String password = "www.google.com";
+        String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
+        String user = "bryan";
+        String password = "www.bilibili.com";
 
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("第四种方法(优化) = " + connection);

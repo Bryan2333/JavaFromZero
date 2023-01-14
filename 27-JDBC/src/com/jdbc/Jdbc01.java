@@ -17,13 +17,13 @@ public class Jdbc01 {
         // jdbc:mysql 规定好协议，使用 jdbc 连接 mysql
         // 127.0.0.1 数据库主机的ip地址
         // 3306 端口号
-        // jdbclearning 要连接到的数据库名称
-        String url = "jdbc:mysql://127.0.0.1:23334/jdbclearning";
+        // jdbc_learning 要连接到的数据库名称
+        String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
 
         // 将 用户名 和 密码 放到一个 Properties 对象
         Properties info = new Properties();
-        info.setProperty("user", "root");
-        info.setProperty("password", "www.google.com");
+        info.setProperty("user", "bryan");
+        info.setProperty("password", "www.bilibili.com");
 
         // Connect 可以理解为网络连接
         Connection connection = driver.connect(url, info);

@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
 
-    String connectionUrl = "jdbc:mariadb://127.0.0.1:23334/java_b2";
-    String dbUser = "root";
-    String dbPwd = "www.google.com";
+    String connectionUrl = "jdbc:mysql://localhost:3306/java_b2";
+    String dbUser = "bryan";
+    String dbPwd = "www.bilibili.com";
     private static ConnectionFactory connectionFactory = null;
 
 

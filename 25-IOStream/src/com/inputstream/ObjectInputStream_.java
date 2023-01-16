@@ -13,7 +13,7 @@ public class ObjectInputStream_ {
 
     @Test
     public void input() throws IOException, ClassNotFoundException {
-        String filePath = ".\\data.dat";
+        String filePath = "./data.dat";
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filePath));
 

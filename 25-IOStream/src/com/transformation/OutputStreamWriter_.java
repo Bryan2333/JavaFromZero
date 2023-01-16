@@ -15,7 +15,7 @@ public class OutputStreamWriter_ {
 
     @Test
     public void writer() throws IOException {
-        String filePath = ".\\note.txt";
+        String filePath = "./note.txt";
         FileOutputStream fos = new FileOutputStream(filePath, false);
         OutputStreamWriter osw = new OutputStreamWriter(fos, StandardCharsets.UTF_8);
         BufferedWriter bw = new BufferedWriter(osw);

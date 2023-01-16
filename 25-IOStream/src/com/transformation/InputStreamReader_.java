@@ -11,7 +11,7 @@ public class InputStreamReader_ {
 
     @Test
     public void reader() throws IOException {
-        String filePath = ".\\note.txt";
+        String filePath = "./note.txt";
         FileInputStream fileInputStream = new FileInputStream(filePath);
 
         // 将 FileInputStream 转为 InputStreamReader
@@ -20,8 +20,7 @@ public class InputStreamReader_ {
 
 //        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "GBK"));
 
-        String line = null;
-        line = br.readLine();
+        String line = br.readLine();
         System.out.println(line);
 
         br.close();

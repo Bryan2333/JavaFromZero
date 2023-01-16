@@ -5,7 +5,7 @@ package com.io;
  */
 
 public class BufferedReader_ extends Reader_ {
-    private Reader_ reader_; //Reader_类型的属性
+    private final Reader_ reader_; //Reader_类型的属性
 
     public BufferedReader_(Reader_ reader_) {
         this.reader_ = reader_;

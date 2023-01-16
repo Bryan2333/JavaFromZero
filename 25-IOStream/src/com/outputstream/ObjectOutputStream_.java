@@ -11,7 +11,7 @@ public class ObjectOutputStream_ {
 
     @Test
     public void output() throws IOException {
-        String filePath = ".\\data.dat";
+        String filePath = "./data.dat";
 
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filePath));
 

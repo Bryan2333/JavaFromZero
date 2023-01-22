@@ -18,7 +18,7 @@ public class Jdbc01 {
         // 127.0.0.1 数据库主机的ip地址
         // 3306 端口号
         // jdbc_learning 要连接到的数据库名称
-        String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
+        String url = "jdbc:mysql://localhost:3306/jdbc_learning";
 
         // 将 用户名 和 密码 放到一个 Properties 对象
         Properties info = new Properties();

@@ -5,12 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.io.*;
 
 public class ObjectOutputStream_ {
-    public static void main(String[] args) {
-
-    }
-
-    @Test
-    public void output() throws IOException {
+    public static void main(String[] args) throws Exception {
         String filePath = "./data.dat";
 
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filePath));

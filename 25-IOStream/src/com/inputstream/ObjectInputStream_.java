@@ -1,18 +1,11 @@
 package com.inputstream;
 
-import org.junit.jupiter.api.Test;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import com.outputstream.Employee;
 
 public class ObjectInputStream_ {
-    public static void main(String[] args) {
-
-    }
-
-    @Test
-    public void input() throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws Exception {
         String filePath = "./data.dat";
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filePath));

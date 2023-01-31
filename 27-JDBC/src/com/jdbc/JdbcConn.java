@@ -24,7 +24,7 @@ public class JdbcConn {
         String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
         Properties info = new Properties();
         info.setProperty("user", "bryan");
-        info.setProperty("password", "www.bilibili.com");
+        info.setProperty("password", "password");
 
         // Connect 可以理解为网络连接
         Connection connection = driver.connect(url, info);
@@ -43,7 +43,7 @@ public class JdbcConn {
         String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
         Properties info = new Properties();
         info.setProperty("user", "bryan");
-        info.setProperty("password", "www.bilibili.com");
+        info.setProperty("password", "password");
 
         // Connect 可以理解为网络连接
         Connection connection = driver.connect(url, info);
@@ -58,7 +58,7 @@ public class JdbcConn {
 
         String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
         String user = "bryan";
-        String password = "www.bilibili.com";
+        String password = "password";
 
         DriverManager.registerDriver(driver); // 注册 Driver 驱动
 
@@ -75,7 +75,7 @@ public class JdbcConn {
 
         String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
         String user = "bryan";
-        String password = "www.bilibili.com";
+        String password = "password";
 
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("第四种方法 = " + connection);
@@ -88,7 +88,7 @@ public class JdbcConn {
 
         String url = "jdbc:mysql://127.0.0.1:3306/jdbc_learning";
         String user = "bryan";
-        String password = "www.bilibili.com";
+        String password = "password";
 
         Connection connection = DriverManager.getConnection(url, user, password);
         System.out.println("第四种方法(优化) = " + connection);

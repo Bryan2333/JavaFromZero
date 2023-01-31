@@ -1,7 +1,5 @@
 package com.outputstream;
 
-import org.junit.jupiter.api.Test;
-
 import java.io.*;
 
 public class ObjectOutputStream_ {

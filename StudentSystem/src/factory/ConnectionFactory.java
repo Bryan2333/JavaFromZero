@@ -9,7 +9,7 @@ public class ConnectionFactory {
 
     String connectionUrl = "jdbc:mysql://localhost:3306/java_b2";
     String dbUser = "bryan";
-    String dbPwd = "www.bilibili.com";
+    String dbPwd = "password";
     private static ConnectionFactory connectionFactory = null;
 
 

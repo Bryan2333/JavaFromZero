@@ -23,7 +23,7 @@ public class Jdbc01 {
         // 将 用户名 和 密码 放到一个 Properties 对象
         Properties info = new Properties();
         info.setProperty("user", "bryan");
-        info.setProperty("password", "www.bilibili.com");
+        info.setProperty("password", "password");
 
         // Connect 可以理解为网络连接
         Connection connection = driver.connect(url, info);

@@ -18,7 +18,7 @@ public class Homework02 {
         // 通过反射获取参数为 String 的构造器
         Constructor<File> constructor = fileClass.getDeclaredConstructor(String.class);
         // 通过该构造器创建 File 对象
-        File file = constructor.newInstance(".\\mynewfile.txt");
+        File file = constructor.newInstance("./mynewfile.txt");
         // 通过反射获得 createNewFile 方法
         Method createNewFile = fileClass.getDeclaredMethod("createNewFile");
         createNewFile.invoke(file); // 调用 createNewFile 方法

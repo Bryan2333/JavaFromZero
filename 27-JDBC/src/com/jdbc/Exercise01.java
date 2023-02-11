@@ -9,9 +9,8 @@ import java.util.Properties;
 public class Exercise01 {
     public static void main(String[] args) throws Exception {
 
-        Class.forName("com.mysql.cj.jdbc.Driver");
         Properties properties = new Properties();
-        properties.load(new FileInputStream(".\\src\\mysql.properties"));
+        properties.load(new FileInputStream("./src/mysql.properties"));
 
         String url = properties.getProperty("url");
         String user = properties.getProperty("user");

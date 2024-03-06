@@ -7,6 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_03-OptionalClass" />
+        <module name="_04-FunctionalInterface" />
+        <module name="_05-MethodReference" />
         <module name="_01-LambdaExpression" />
         <module name="_02-Stream" />
       </profile>

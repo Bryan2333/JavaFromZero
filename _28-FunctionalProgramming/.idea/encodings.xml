@@ -5,5 +5,11 @@
     <file url="file://$PROJECT_DIR$/_01-LambdaExpression/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_02-Stream/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_02-Stream/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_03-OptionalClass/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_03-OptionalClass/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_04-FunctionalInterface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_04-FunctionalInterface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_05-MethodReference/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_05-MethodReference/src/main/resources" charset="UTF-8" />
   </component>
 </project>
